@@ -77,8 +77,8 @@ class apt::params {
 
   $proxy_defaults = {
     'ensure' => undef,
-    'host'   => undef,
-    'port'   => 8080,
+    'host'   => '192.168.192.9',
+    'port'   => '3128',
     'https'  => false,
   }
 
